@@ -2,7 +2,7 @@ import sqlite3
 
 con = sqlite3.connect('student.db')
 c = con.cursor()
-print("hello")
+
 
 
 def create_table():
