@@ -3,8 +3,7 @@ import sqlite3
 con = sqlite3.connect('student.db')
 c = con.cursor()
 
-
-
+#---Create Table---
 def create_table():
     c.execute("""CREATE TABLE IF NOT EXISTS students(
              first text,
